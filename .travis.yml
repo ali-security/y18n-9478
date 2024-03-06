@@ -3,5 +3,6 @@ sudo: false
 node_js:
   - "4"
   - "6"
-  - "node"
+  - '9'
 after_success: npm run coverage
+dist: trusty
